@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+const e = React.createElement;
 
 const title = 'smol react';
 
 ReactDOM.render(
-  <div><small>{title}</small></div>,
+  e('div', null,
+    e('small', null, title)
+  ),
   document.getElementById('app'),
 );
-
-// allow hot module replacement, opposed to reloading the browser on every change.
-module.hot.accept();
