@@ -1,0 +1,8 @@
+{
+  "name": "smol-react",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-16-buster",
+  "extensions": [
+    "dbaeumer.vscode-eslint"
+  ],
+  "remoteUser": "node"
+}
